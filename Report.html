@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Report an Incident</title>
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Report.html">Report an Incident</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Traffic-Rules.html">Traffic Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact-US.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Sensors.html">Sensors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Payment.html">Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Login.html"><i class="fa-solid fa-right-to-bracket fa-beat-fade" style="color: #63E6BE;"></i></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+       <!-- navbar -->
+        
+       <!-- Report container -->
+        <section class="Report-Container">
+            <div class="Report-form-container mx-auto p-5">
+                <h1 class="text-center text-decoration">Report an Incident</h1>
+                <div class="moving-text-container Announcement-section-moving-text-container">
+                    <p class="text-center moving-text ">Be a responsible citizen and report incidents. Wear a helmet while driving! Help keep the roads safe.</p>
+                </div>
+                
+
+                <div class="Report-form">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                            <input type="Text" class="form-control" name="Full Name" >
+                            
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" name="email"  >
+                          
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Incident Description</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Landmark (nearby reference)</label>
+                            <input type="Text" class="form-control" placeholder="Enter nearby Landmarks" name="Landmark" >
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Location</label>
+                            <input type="Text" class="form-control" placeholder="Enter The Location Of The Incident " name="Landmark" >
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                       <div class="mx-auto d-grid gap-2 col-6">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                       </div>
+                        
+                      </form>
+                </div>
+            </div>
+        </section>
+
+       <!-- Report container -->
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

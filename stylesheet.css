@@ -1,0 +1,318 @@
+body*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* navbar */
+
+
+/* navbar */
+
+
+/* slide */
+
+
+
+/* slide */
+
+/* Announcement-section end */
+.Announcement-section-moving-text-container{
+    margin-top: 40px;
+}
+.Announcement-section-moving-text{
+    font-size: 20px;
+   
+}
+
+.Announcement-section{
+    width: 100%;
+    height: fit-content;
+}
+
+.Announcement-card{
+    width: 200px;
+    height: fit-content;
+    padding: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Announcement-section end */
+
+/* Needes-section start */
+
+.Needes-section{
+    width: 100%;
+    height: 50vh;
+
+}
+.Needes-section a{
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid white;
+   margin-left: 45%;
+}
+
+
+/* Needes-section end */
+
+/* footer-section-box start */
+
+.footer-section{
+    min-height: 350px;
+    
+    
+}
+.footer-section-box{
+    min-width: 200px;
+    min-height: 200px;
+   
+}
+
+
+/* footer-section-box end */
+
+/* media query */
+/* media query */
+
+
+
+
+/* Home-end */
+
+
+
+/* Report-Start */
+
+.Report-Container{
+    height: fit-content;
+    width: 100%;
+    padding: 5%;
+    border: 1px solid black;
+
+}
+.Report-form-container{
+    width: 55%;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    border: 1px solid black;
+}
+
+.moving-text-container{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+   
+    overflow: hidden;
+}
+.moving-text{
+    animation-name: rightToLeft;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rightToLeft {
+    0% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(-160px);
+    }
+}
+
+
+
+
+/* media query */
+@media only screen and (max-width:850px) {
+    .Report-form-container{
+        width: 88%;
+      
+    }
+}
+@media only screen and (max-width:700px) {
+    .Report-form-container{
+        width: 90%;
+      
+    }
+}
+@media only screen and (max-width:540px) {
+    .Report-form-container{
+        width: 80%;
+      
+    }
+}
+@media only screen and (max-width:420px) {
+    .Report-form-container{
+        width: 90%;
+      
+    }
+}
+
+/* media query */
+
+/* Report End */
+
+
+
+/* Traffic Rules and Safety Guidelines Start */
+.text-decoration{
+    text-decoration: underline;
+    color: royalblue;
+}
+h3{
+    color: rgb(65, 65, 180);
+}
+.moving-text-Traffic-container{
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+   margin: auto;
+    overflow: hidden;
+}
+.moving-Traffic-text{
+    font-size: 25px;
+    animation-name: rightToLeftmoving;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rightToLeftmoving {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.Important-rules-container{
+    
+    gap: 10px;
+    text-align: center;
+}
+.Important-rules-box{
+    padding: 20px;
+    min-width: 230px;
+    border: 2px solid black;
+}
+.moving-Traffic-text:hover{
+    -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+
+/* Traffic Rules and Safety Guidelines End */
+
+
+
+
+/* Contact-US-section start */
+
+.Contact-US-section{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Contact-section-box1{
+    border: 1px solid black;
+    padding:20px 20px ;
+    margin: auto;
+    
+}
+
+
+/* Contact-US-section end */
+
+
+/* Sensors-section start */
+.Sensors-section-container{
+    width: 95%;
+    margin: auto;
+
+}
+.Rules-box{
+    min-width: 40vh;
+    padding: 20px;
+    border: 1px solid black;
+}
+.Sensors-footer-section{
+    width: 95%;
+    height: 30vh;
+    margin: auto;
+    background-color: grey;
+}
+.Payment-section-box{
+    box-shadow: 1px 2px 1px 1px;
+}
+/* Sensors-section end */
+
+/* login-section start */
+
+.moving-text-login-container{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(26, 206, 173);
+    margin: auto;
+    overflow: hidden;
+}
+.moving-login-text{
+    font-size: 25px;
+    animation-name: righttoleftlogin;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes righttoleftlogin {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.moving-login-text:hover{
+    -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+.form-container{
+    width: 30%;
+    margin: auto;
+    background-image: url(./United_States_Department_of_Transportation_seal.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 100px;
+    border: 1px solid black;
+    padding: 50px;
+}
+.form-input{
+    height: 30px;
+}
+.form-button{
+    width: 100%;
+}
+.login-button{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    
+  
+}
+
+
+
+
+
+
+
+/* login-section End */
